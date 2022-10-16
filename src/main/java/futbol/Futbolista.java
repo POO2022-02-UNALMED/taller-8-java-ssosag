@@ -18,6 +18,9 @@ public abstract class Futbolista implements Comparable<Futbolista>{
 	}
 	
 	@Override
+	public abstract int compareTo(Futbolista o);
+	
+	@Override
 	public String toString() {
 		return "El futbolista " + nombre + " tiene " + edad + ", y juega de " + posicion;
 	}
