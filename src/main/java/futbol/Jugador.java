@@ -30,5 +30,10 @@ public class Jugador extends Futbolista {
 	public String toString() {
 		return super.toString() + " con el dorsal" + dorsal + ".Ha marcado " + golesMarcados;
 	}
+
+	@Override
+	public int compareTo(Object o) {
+		return 0;
+	}
 	
 }
